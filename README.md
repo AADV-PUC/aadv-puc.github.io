@@ -4,6 +4,7 @@
 
 ### Dependências
 - Ruby 2.7.3
+- gem `bundle`
 
 ### Passos para instalação
 

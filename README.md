@@ -1,4 +1,5 @@
 # Site para posts da AADV
+[Clique aqui](https://aadv-puc.github.io/) para visitar o site!
 
 ## Instalação
 

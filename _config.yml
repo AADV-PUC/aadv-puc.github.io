@@ -24,7 +24,7 @@ email: aadv@aadv.com.br
 github_username: AADV-PUC
 
 baseurl: "" # the subpath of your site, e.g. /blog
-description: "Rua Louis Braille, n° 85 - Residencial Paineiras - Poços de Caldas"
+address: "Rua Louis Braille, n° 85 - Residencial Paineiras - Poços de Caldas"
 phone: (35) 3714-3807
 
 # For GitHub pages
@@ -32,8 +32,6 @@ url: "https://aadv-puc.github.io/" # the base hostname & protocol for your site,
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.

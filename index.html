@@ -1,0 +1,36 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: page
+---
+
+
+<h3>Postagens</h3>
+<p>
+  Seja bem-vindo(a) ao blog da AADV! Clique
+  <a href="/posts">aqui</a> para ver todos os posts,
+  ou acompanhe as categorias a seguir.
+</p>
+
+<h3>Categorias</h3>
+<ul id="categories">
+  {% for category in site.categories %}
+    <li class="archive-group">
+      {% capture category_name %}{{ category | first }} {% endcapture %}
+      <div id="#{{ category_name | slugify: 'latin' }}"></div>
+      <p></p>
+
+      <!-- Find link and the pretty category name -->
+      <a href="{{ category_name | slugify: 'latin' }}">
+        {{ site.pretty_categories | where: 'noticias', 'Notícias' }}
+        {% for pretty_category in site.pretty_categories %}
+          {% assign stripped_category_name = category_name | strip  %}
+          {% if stripped_category_name == pretty_category[0] %}
+            {{ pretty_category[1] }}
+          {% endif %}
+        {% endfor %}
+      </a>
+    </li>
+  {% endfor %}
+</ul>

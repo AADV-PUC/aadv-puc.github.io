@@ -1,0 +1,12 @@
+---
+layout: post
+title:  Braille
+date:   2021-05-27 10:09:01 -0300
+categories: atividades
+---
+
+## Breve resumo
+O Braille é um sistema para possibilitar que pessoas com deficiência visual, parcial ou total,tenham acesso à leitura. Todo o sistema é formado por caracteres em relevo que permitem o entendimento por meio do tato.
+
+## Player de mídia
+Player...

@@ -1,0 +1,12 @@
+---
+layout: post
+title:  Novo Emprego!
+date:   2021-05-21 19:39:32 -0300
+categories: emprego
+---
+
+## Breve resumo
+Qualquer profissão pode ser exercida pelo deficiente visual (auxiliar cozinha, jardineiro, serviços gerais, operador de telemarketing, ascensorista, telefonista).
+
+## Player de mídia
+Player...

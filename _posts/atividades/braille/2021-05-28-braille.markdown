@@ -9,4 +9,4 @@ categories: atividades
 O Braille é um sistema para possibilitar que pessoas com deficiência visual, parcial ou total,tenham acesso à leitura. Todo o sistema é formado por caracteres em relevo que permitem o entendimento por meio do tato.
 
 ## Player de mídia
-Player...
+{% include embed-audio.html src="/assets/audio/sample/birds.mp3" %}

@@ -30,16 +30,6 @@ phone: (35) 3714-3807
 # Blog settings
 encoding: 'utf-8'
 permalink: /:categories/:title/
-# pretty_categories:
-#   - Notícias
-#   - Atividades
-#   - Eventos
-#   - Emprego
-pretty_categories:
-  noticias: Notícias
-  atividades: Atividades
-  eventos: Eventos
-  emprego: Emprego
 
 # For GitHub pages
 url: "https://aadv-puc.github.io/" # the base hostname & protocol for your site, e.g. http://example.com

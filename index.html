@@ -3,33 +3,26 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
+
+category_links:
+  - categorias-atividades
+  - noticias
+  - eventos
+  - emprego
+
+pretty_categories:
+  - Atividades
+  - Notícias
+  - Eventos
+  - Emprego
 ---
 
-<h3>Postagens</h3>
+<h1 class="page-heading">Postagens</h1>
 <p>
   Boas vindas ao site de suporte ATIVIDADES AADV!
-  Acompanhe as categorias de atividades a seguir. Ou para ver direto os posts de atividades, clique
+  Acompanhe as categorias de postagens a seguir. Ou para ver a lista de todos os posts, clique
   <a href="/posts">aqui.</a>
 </p>
 
-<h3>Categorias</h3>
-<ul id="categories">
-  {% for category in site.categories %}
-    <li class="archive-group">
-      {% capture category_name %}{{ category | first }} {% endcapture %}
-      <div id="#{{ category_name | slugify: 'latin' }}"></div>
-      <p></p>
-
-      <!-- Find link and the pretty category name -->
-      <a href="{{ category_name | slugify: 'latin' }}">
-        {{ site.pretty_categories | where: 'noticias', 'Notícias' }}
-        {% for pretty_category in site.pretty_categories %}
-          {% assign stripped_category_name = category_name | strip  %}
-          {% if stripped_category_name == pretty_category[0] %}
-            {{ pretty_category[1] }}
-          {% endif %}
-        {% endfor %}
-      </a>
-    </li>
-  {% endfor %}
-</ul>
+<h3>Categorias de postagens</h3>
+{%- include category_list.html %}

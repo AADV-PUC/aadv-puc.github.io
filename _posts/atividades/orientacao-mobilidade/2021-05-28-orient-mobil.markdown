@@ -2,7 +2,7 @@
 layout: post
 title:  Orientação e Mobilidade
 date:   2021-05-27 10:09:01 -0300
-categories: atividades
+categories: atividades orientacao-mobilidade
 ---
 
 ## Breve resumo

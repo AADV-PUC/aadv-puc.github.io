@@ -1,0 +1,9 @@
+<ul id="categories">
+  {% for link in page.category_links %}
+    <li class="archive-group">
+      <p>
+        <a href="{{ page.link_prefix | default: / }}{{ link }}">{{ page.pretty_categories[forloop.index0] }}</a>
+      </p>
+    </li>
+  {% endfor %}
+</ul>

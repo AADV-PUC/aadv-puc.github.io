@@ -9,4 +9,4 @@ categories: atividades psicologia
 O objetivo do psicólogo é compreender e analisar os indivíduos a fim de solucionar problemas relacionados ao comportamento.
 
 ## Player de mídia
-Player...
+{% include embed-audio.html src="/assets/audio/sample/birds.mp3" %}

@@ -9,4 +9,4 @@ categories: atividades orientacao-mobilidade
 Orientação e Mobilidade é a área da educação especial voltada a educação e a reabilitação de portadores de deficiência visual, sejam por problemas congênitos ou adquiridos.
 
 ## Player de mídia
-Player...
+{% include embed-audio.html src="/assets/audio/sample/birds.mp3" %}

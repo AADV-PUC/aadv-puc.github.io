@@ -9,4 +9,4 @@ categories: atividades psicomotora-funcional
 Atividades psicomotoras são aquelas que marcam a interação entre o movimento muscular e o sistema nervoso. Elas são extremamente importantes para o ser humano em qualquer etapa da vida, mas para as crianças são indispensáveis.
 
 ## Player de mídia
-Player...
+{% include embed-audio.html src="/assets/audio/sample/birds.mp3" %}

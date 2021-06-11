@@ -9,4 +9,4 @@ categories: eventos
 Podemos considerar como um evento qualquer acontecimento que reúna pessoas em um espaço físico em torno de um objetivo.
 
 ## Player de mídia
-Player...
+{% include embed-audio.html src="/assets/audio/sample/birds.mp3" %}

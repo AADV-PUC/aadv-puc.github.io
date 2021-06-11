@@ -9,4 +9,4 @@ categories: emprego
 Qualquer profissão pode ser exercida pelo deficiente visual (auxiliar cozinha, jardineiro, serviços gerais, operador de telemarketing, ascensorista, telefonista).
 
 ## Player de mídia
-Player...
+{% include embed-audio.html src="/assets/audio/sample/birds.mp3" %}

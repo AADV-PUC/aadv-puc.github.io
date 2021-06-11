@@ -9,4 +9,4 @@ categories: noticias
 A notícia é um gênero textual que tem como objetivo o de INFORMAR fatos do dia a dia, relevantes para a sociedade.
 
 ## Player de mídia
-Player...
+{% include embed-audio.html src="/assets/audio/sample/birds.mp3" %}

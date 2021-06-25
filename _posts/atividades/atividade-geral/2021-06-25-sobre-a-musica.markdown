@@ -2,7 +2,7 @@
 layout: post
 title:  Sobre a música
 date:   2021-06-25 19:01:00 -0300
-categories: atividade atividade-geral
+categories: atividades atividade-geral
 ---
 
 ## Breve resumo

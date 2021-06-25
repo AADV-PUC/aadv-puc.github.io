@@ -2,7 +2,7 @@
 layout: post
 title:  Introdução à orientação e segurança
 date:   2021-06-25 19:06:00 -0300
-categories: atividade orientacao-mobilidade
+categories: atividades orientacao-mobilidade
 ---
 
 ## Breve resumo
